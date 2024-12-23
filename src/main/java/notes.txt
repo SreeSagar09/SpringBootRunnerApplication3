@@ -1,0 +1,15 @@
+A Program to implement multiple custom runners by using CommandLineRunner, ApplicationRunner interface:
+Programs:
+* SpringBootRunnerApplication3Application.java
+* CustomApplicationRunner1.java
+* CustomApplicationRunner2.java
+* CustomCommandLineRunner1.java
+* CustomCommandLineRunner2.java
+Notes:
+* The default execution order of multiple custom runners by order they declare in application.
+Output:
+From run method in CustomApplicationRunner1 class.
+From run method in CustomApplicationRunner2 class.
+From run method in CustomCommandLineRunner1 class.
+From run method in CustomCommandLineRunner2 class.
+From main method in SpringBootRunnerApplication3Application class.
